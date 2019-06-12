@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+        #content {
+            width: 100vw;
+            height: calc(100vh - 10rem);
+        }
+        </style>
+        <script src="biwascheme.js"></script>
+    </head>
+<body>
+    <div id="content"> </div>
+<script type = "module">
+      import { initLisb } from "./lisb.js";
+
+      initLisb(document.getElementById('content'), design => {
+      });
+</script>
+    </body>
+</html>
